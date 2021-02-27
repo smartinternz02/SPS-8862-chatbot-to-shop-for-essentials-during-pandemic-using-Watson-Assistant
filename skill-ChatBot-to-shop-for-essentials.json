@@ -1,0 +1,1311 @@
+{
+  "intents": [
+    {
+      "intent": "collect_address",
+      "examples": [
+        {
+          "text": "18 Wall street is my location",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "19 Sousse street is my location",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "83 Rue Ettatawer is my address",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "95 Rue Ali Belhouane is my location address",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i live in 111 Rue Mohamed Mestiri",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                10,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i live in 24 Rue Platon",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                10,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i live in 72 Rue Ennassiria",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                10,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my address is 104 Rue Galboun Ibn Al Hassen",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                14,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My address is 17 Palm street",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                14,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my address is 56 Rue Camille des Moulins",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                14,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my location is 109 Rue Menzel Bourguiba",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                15,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my location is 32 Rue Aerobic",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                15,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my location is 70 Rue de fes",
+          "mentions": [
+            {
+              "entity": "place",
+              "location": [
+                15,
+                28
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "emir"
+        },
+        {
+          "text": "I'm Bruno",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i'm Firas",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i'm Henry",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Micheal",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Ali",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Elen",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Emilie",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Evelyn",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Marwa",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Mohamed",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "enquiry",
+      "examples": [
+        {
+          "text": "essentials elements"
+        },
+        {
+          "text": "food"
+        },
+        {
+          "text": "products"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "gdm"
+        },
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good Evening"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Order",
+      "examples": [
+        {
+          "text": "amir@gmail.com"
+        },
+        {
+          "text": "can you order ?"
+        },
+        {
+          "text": "CARD"
+        },
+        {
+          "text": "Milk"
+        },
+        {
+          "text": "place my order"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "check",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "enquiry",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "items",
+          "synonyms": [
+            "Elements",
+            "Food ",
+            "Products"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "offers",
+          "synonyms": [
+            "discounts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "essentials",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Apples",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Body wash and shampoos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bread",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Butter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carrots",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kiwi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Milk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peppers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Surface cleaners and disinfectants",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tomatoes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Toothpaste",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "gud aftn "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "gud evn "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "gdm",
+            "gud Mn"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Items",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bakery and Dairy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fruits & Vegetables",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Personal care",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ali",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bruno",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emilie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Evelyn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Firas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Henry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marwa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Micheal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mohamed",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "payment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "American Express",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MasterCard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PayPal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VISA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "place",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "104 Rue Galboun Ibn Al Hassen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "109 Rue Menzel Bourguiba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "111 Rue Mohamed Mestiri",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "17 Palm street is my adress",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "18 Wall Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "19 Sousse street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "24 Rue Platon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "32 Rue Aerobic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "56 Rue Camille des Moulins",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "70 Rue de fes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "72 Rue Ennassiria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "83 Rue Ettatawer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "95 Rue Ali Belhouane",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#greeting || @greeting",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1613808971486",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_10_1613808971487"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "where do you live ? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1613810879123",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1613810879124",
+      "previous_sibling": "handler_5_1613810879124"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the item would you like to order ? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1613755487332",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1613755487334",
+      "previous_sibling": "handler_6_1613755487333"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1613753891762",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1613753891763"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1613753947886",
+      "context": {
+        "payment": "@payment"
+      },
+      "conditions": "@payment",
+      "event_name": "input",
+      "dialog_node": "handler_5_1613753947888"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1613810879123",
+      "context": {
+        "place": "@place"
+      },
+      "conditions": "@place",
+      "event_name": "input",
+      "dialog_node": "handler_5_1613810879124"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mention the quantity please ? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1613753891762",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1613753891763",
+      "previous_sibling": "handler_4_1613753891763"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "we offer VISA , PayPal ,MasterCard, American Express . Which payment method will you choose ? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1613753947886",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1613753947888",
+      "previous_sibling": "handler_5_1613753947888"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1613755487332",
+      "context": {
+        "essentials": "@essentials"
+      },
+      "conditions": "@essentials",
+      "event_name": "input",
+      "dialog_node": "handler_6_1613755487333"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "what is your Email address ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1613808971486",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1613808971488",
+      "previous_sibling": "handler_10_1613808971487"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "what is your name ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1613812108358",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1613812108359",
+      "previous_sibling": "handler_7_1613812108359"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1614196337927",
+      "context": {
+        "check": "@check"
+      },
+      "conditions": "@check",
+      "event_name": "input",
+      "dialog_node": "handler_6_1614196337929"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1613812108358",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_7_1613812108359"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Do you want to confirm the order $essentials through $payment (YES/NO)? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1614196337927",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1614196337929",
+      "previous_sibling": "handler_6_1614196337929"
+    },
+    {
+      "type": "standard",
+      "title": "Finish",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1613745699801",
+      "previous_sibling": "node_3_1613753709225"
+    },
+    {
+      "type": "frame",
+      "title": "QndA",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Order || #collect_name",
+      "dialog_node": "node_3_1613753709225",
+      "previous_sibling": "node_6_1613743464520"
+    },
+    {
+      "type": "standard",
+      "title": "enquiry",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#enquiry || @enquiry",
+      "dialog_node": "node_6_1613743464520",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1613743464520",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Items",
+      "dialog_node": "node_8_1613748594069"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you , your Command is placed. \nDelivery details : \n          Name : $name\n          Email-ID : $email\n          Item : $essentials\n          Quantity : $number\n          Payment through: $payment\n          Place : $place\nYour receipt is sent to $email"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1613753709225",
+      "conditions": "@check:Yes",
+      "dialog_node": "response_10_1614279338137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1) Milk 5L : 2$\n2) Butter 500g : 0.8$\n3) Bread : 1$ "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1613748594069",
+      "conditions": "@Items:(Bakery and Dairy)",
+      "dialog_node": "response_1_1613754759876",
+      "previous_sibling": "response_9_1613748776677"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening ! How may i help you ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "conditions": "@greeting:(Good Evening)",
+      "dialog_node": "response_3_1613740087152",
+      "previous_sibling": "response_9_1613739976992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1) Carrots 1 kg : 1$\n2) Peppers 1 kg : 1$\n3) Tomatoes 1 kg : 0.9$\n4) Apples 1 kg : 1$\n5) Kiwi 1 kg : 1.1$"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1613748594069",
+      "conditions": "@Items:(Fruits & Vegetables)",
+      "dialog_node": "response_3_1613748744594"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Command is canceled "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1613753709225",
+      "conditions": "@check:No",
+      "dialog_node": "response_4_1614279353147",
+      "previous_sibling": "response_10_1614279338137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi ! How may i help you ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1613740336041",
+      "previous_sibling": "response_8_1613740213467"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Fruits & Vegetables",
+                "value": {
+                  "input": {
+                    "text": "Fruits & Vegetables"
+                  }
+                }
+              },
+              {
+                "label": "Personal care",
+                "value": {
+                  "input": {
+                    "text": "Personal care"
+                  }
+                }
+              },
+              {
+                "label": "Bakery and Dairy",
+                "value": {
+                  "input": {
+                    "text": "Bakery and Dairy"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1613743464520",
+      "conditions": "@enquiry:items",
+      "dialog_node": "response_6_1613746398843",
+      "previous_sibling": "response_9_1613743493582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Afternoon ! How may i help you ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "conditions": "@greeting:(Good Afternoon)",
+      "dialog_node": "response_8_1613740213467",
+      "previous_sibling": "response_3_1613740087152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning ! How may i help you ? "
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "conditions": "@greeting:(Good Morning)",
+      "dialog_node": "response_9_1613739976992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "30% discounts on Fruits and Vegetables."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "20% discounts on Personal care."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "10% discounts on Bakery and Dairy."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1613743464520",
+      "conditions": "@enquiry:offers",
+      "dialog_node": "response_9_1613743493582",
+      "previous_sibling": "node_8_1613748594069"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1) Body wash and shampoos : 2$\n2) Toothpaste  : 1$\n3) Surface cleaners and disinfectants :  15$"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1613748594069",
+      "conditions": "@Items:(Personal care)",
+      "dialog_node": "response_9_1613748776677",
+      "previous_sibling": "response_3_1613748744594"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1613753709225",
+      "variable": "$essentials",
+      "dialog_node": "slot_10_1613755487332",
+      "previous_sibling": "response_4_1614279353147"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1613753709225",
+      "variable": "$place",
+      "dialog_node": "slot_10_1613810879123",
+      "previous_sibling": "slot_2_1613812108358"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1613753709225",
+      "variable": "$name",
+      "dialog_node": "slot_2_1613812108358",
+      "previous_sibling": "slot_7_1613753891762"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1613753709225",
+      "variable": "$check",
+      "dialog_node": "slot_3_1614196337927",
+      "previous_sibling": "slot_4_1613753947886"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1613753709225",
+      "variable": "$payment",
+      "dialog_node": "slot_4_1613753947886",
+      "previous_sibling": "slot_8_1613808971486"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1613753709225",
+      "variable": "$number",
+      "dialog_node": "slot_7_1613753891762",
+      "previous_sibling": "slot_10_1613755487332"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1613753709225",
+      "variable": "$email",
+      "dialog_node": "slot_8_1613808971486",
+      "previous_sibling": "slot_10_1613810879123"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello ! I'm e-commerce Chat-Bot capable of showing List of items, find offers,place orders."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "amir@gmail.com"
+    },
+    {
+      "text": "CARD"
+    },
+    {
+      "text": "Emir"
+    },
+    {
+      "text": "mohamed@hotmail.com"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "ChatBot to shop for essentials",
+  "language": "en",
+  "description": ""
+}
